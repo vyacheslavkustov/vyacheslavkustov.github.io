@@ -729,3 +729,19 @@ footer {
     margin-left: 25px;
   }
 }
+@media screen and (max-width: 1025px) {
+  .container {
+    width: 100%;
+  }
+  .navigation_links {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .container {
+    width: 100%;
+  }
+  .navigation_links {
+    margin-left: 25px;
+  }
+}
