@@ -453,6 +453,9 @@ button {
   display: block;
   min-width: 100%;
 }
+header {
+  min-width: 753px;
+}
 .header_hed {
   width: 100%;
   height: 130px;
@@ -689,10 +692,10 @@ button {
   margin: auto;
 }
 footer {
-  padding: 100px 0;
   width: 100%;
   height: 350px;
   background-color: #383838;
+  padding: 100px 0;
 }
 .zagolovok_footer {
   color: #fff;
@@ -733,6 +736,13 @@ footer {
   .navigation_links {
     margin-left: 25px;
   }
+}
+footer {
+  padding: 45px;
+  height: 425px;
+}
+.zagolovok_footer {
+  margin-top: 15px;
 }
 @media screen and (max-width: 769px) {
   .container {
