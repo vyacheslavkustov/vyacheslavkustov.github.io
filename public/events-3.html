@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html class="loaded" lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,user-scalable=yes">
+        <title>Old school</title>
+
+
+        <!-- Тема по умолчанию -->
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
+        <link href="css/style.min.css" rel="stylesheet">
+
+
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <img class="bcg_fon" src="img/background_3.jpg" alt="">
+    <main>
+        <div id="side_menu_bg" class="side-menu-bg"></div>
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-close-btn"></div>
+            </div>
+            <div class="wrap_form">
+                <h2 class="modal_zagolovok">Введите ваши данные</h2>
+                <form action="">
+                    <hr>
+                    <p><label for="login">Введите логин:</label>
+                        <br>
+                        <input class="modal_input" type="text" id="login" placeholder="Логин">
+                    </p>
+                    <p><label for="password">Введите пароль:</label>
+                        <br>
+                        <input class="modal_input type="password" id="password" placeholder="Пароль">
+                    </p>
+                    <hr>
+                    <p class="text"><input class="zapros" name="terms" required type="checkbox">Подтверждаю запрос</p>
+                    <p class="btn_wrap"><input type="submit" name="send" id="button" class="btn"></p>
+                </form>
+            </div>
+        </div>
+        <div class="modal_registracia">
+            <div class="modal-header">
+                <div class="modal-close-btn"></div>
+            </div>
+            <div class="wrap_form">
+                <h2 class="modal_zagolovok">Регистрация пользователя</h2>
+                <form action="">
+                    <hr>
+                    <p><label for="login">Придумайте имя пользователя:</label>
+                        <br>
+                        <input class="modal_input" required type="text" id="login" placeholder="Логин">
+                    </p>
+                    <p><label for="login">Введите Ваш email:</label>
+                        <br>
+                        <input class="modal_input" type="email" required id="login" placeholder="Логин">
+                    </p>
+                    <p><label for="password">Придумайте пароль:</label>
+                        <br>
+                        <input class="modal_input type="password" required id="password" placeholder="Пароль">
+                    </p>
+                    <p><label for="password">Подтвердите пароль:</label>
+                        <br>
+                        <input class="modal_input type="password" required id="password" placeholder="Пароль">
+                    </p>
+                    <hr>
+                    <p class="text"><input class="zapros" name="terms" required type="checkbox">Я хочу зарегистрироваться</p>
+                    <p class="btn_wrap"><input type="submit" name="send" id="button" value="Зарегистрироваться" class="btn2"></p>
+                </form>
+            </div>
+        </div>
+        <div id="modal_menu" class="modal_menu">
+            <ul class="madal_spisok">
+                <a href="index.html"><li class="spisok_links">Главная</li></a>
+                <a href="menu.html"><li  class="spisok_links">Меню</li></a>
+                <a href="events.html"><li class="spisok_links">Галерея</li></a>
+                <a href="contact.html"><li class="spisok_links">Контакты</li></a>
+                <a href="otzivi.html"><li class="spisok_links">Отзывы</li></a>
+                <a tel:88000000000><li class="spisok_links">88000000000</li>
+                    <div class="modal_vhod">
+                        <button class="vhod modal-active">Вход</button>
+                        <button class="registracia modal-active_registracia">Регистрация</button>
+                    </div>
+                    <div class="modal_socsety">
+                        <a href="https://vk.com/oldschooltver"><img class="socsety" src="img/vk.png" alt=""></a>
+                        <a href="/"><img class="socsety" src="img/facebook.png" alt=""></a>
+                        <a href="/"><img class="socsety" src="img/insta.png" alt=""></a>
+                    </div>
+            </ul>
+        </div>
+        <header>
+            <div class="header_head">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xs-2">
+                            <div id="sandvich" class="sandvich">
+                                <div class="sandvich_line"></div>
+                                <div class="sandvich_line"></div>
+                                <div class="sandvich_line"></div>
+                            </div>
+                            <div class="logo">
+                                <a href="index.html"><img class="logotip" src="img/logo.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col xs-7">
+                            <div class="menu">
+                                <ul class="menu_spisok">
+                                    <li class="menu_links"><a href="index.html">Главная</a></li>
+                                    <li class="menu_links"><a href="menu.html">Меню</a></li>
+                                    <li class="menu_links"><a href="events.html">Галерея</a></li>
+                                    <li class="menu_links"><a href="contact.html">Контакты</a></li>
+                                    <li class="menu_links"><a href="otzivi.html">Отзывы</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col xs-3">
+                            <div class="wrap_bron">
+                                <button class="vhod modal-active">Вход</button>
+                                <button class="registracia modal-active_registracia">Регистрация</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <section>
+                <div class="np-row">
+                <div class="container">
+                    <div class="wrap_galery">
+                        <h2 class="galery_zagolovok">Галерея</h2>
+                        <!-- The container for the list of example images -->
+                        <div id="links" class="links">
+                            <a href="img/qZvrlcdCVHw_b.jpg" title="qZvrlcdCVHw" data-gallery>
+                                <img src="img/qZvrlcdCVHw_s.jpg" alt="qZvrlcdCVHw">
+                            </a>
+                            <a href="img/K3zXquyEpFM_b.jpg" title="K3zXquyEpFM" data-gallery>
+                                <img src="img/K3zXquyEpFM_s.jpg" alt="K3zXquyEpFM">
+                            </a>
+                            <a href="img/wr_6ZbPPpQA_b.jpg" title="wr_6ZbPPpQA" data-gallery>
+                                <img src="img/wr_6ZbPPpQA_s.jpg" alt="wr_6ZbPPpQA">
+                            </a>
+                            <a href="img/galary_foto_b.jpg" title="galary_foto_b" data-gallery>
+                                <img src="img/galary_foto_s.jpg" alt="galary_foto_s">
+                            </a>
+                            <a href="img/galary_foto2_b.jpg" title="galary_foto2_b" data-gallery>
+                                <img src="img/galary_foto2_s.jpg" alt="galary_foto2_s">
+                            </a>
+                            <a href="img/galary_foto3_b.jpg" title="galary_foto3_b" data-gallery>
+                                <img src="img/galary_foto3_s.jpg" alt="galary_foto3_s">
+                            </a>
+                            <a href="img/galary_foto4_b.jpg" title="galary_foto4_b" data-gallery>
+                                <img src="img/galary_foto4_s.jpg" alt="galary_foto4_s">
+                            </a>
+                            <a href="img/galary_foto5_b.jpg" title="galary_foto5_b" data-gallery>
+                                <img src="img/galary_foto5_s.jpg" alt="galary_foto5_s">
+                            </a>
+                            <a href="img/galary_foto6_b.jpg" title="galary_foto6_b" data-gallery>
+                                <img src="img/galary_foto6_s.jpg" alt="galary_foto6_s">
+                            </a>
+                            <a href="img/galary_foto7_b.jpg" title="galary_foto7_b" data-gallery>
+                                <img src="img/galary_foto7_s.jpg" alt="galary_foto7_s">
+                            </a>
+                            <a href="img/galary_foto8_b.jpg" title="galary_foto8_b" data-gallery>
+                                <img src="img/galary_foto8_s.jpg" alt="galary_foto8_s">
+                            </a>
+                            <a href="img/galary_foto_b.jpg" title="galary_foto_b" data-gallery>
+                                <img src="img/galary_foto_s.jpg" alt="galary_foto_s">
+                            </a>
+                            <a href="img/galary_foto2_b.jpg" title="galary_foto2_b" data-gallery>
+                                <img src="img/galary_foto2_s.jpg" alt="galary_foto2_s">
+                            </a>
+                            <a href="img/galary_foto3_b.jpg" title="galary_foto3_b" data-gallery>
+                                <img src="img/galary_foto3_s.jpg" alt="galary_foto3_s">
+                            </a>
+                            <a href="img/galary_foto4_b.jpg" title="galary_foto4_b" data-gallery>
+                                <img src="img/galary_foto4_s.jpg" alt="galary_foto4_s">
+                            </a>
+                            <a href="img/galary_foto5_b.jpg" title="galary_foto5_b" data-gallery>
+                                <img src="img/galary_foto5_s.jpg" alt="galary_foto5_s">
+                            </a>
+                            <a href="img/galary_foto6_b.jpg" title="galary_foto6_b" data-gallery>
+                                <img src="img/galary_foto6_s.jpg" alt="galary_foto6_s">
+                            </a>
+                            <a href="img/galary_foto7_b.jpg" title="galary_foto7_b" data-gallery>
+                                <img src="img/galary_foto7_s.jpg" alt="galary_foto7_s">
+                            </a>
+                            <a href="img/galary_foto8_b.jpg" title="galary_foto8_b" data-gallery>
+                                <img src="img/galary_foto8_s.jpg" alt="galary_foto8_s">
+                            </a>
+                        </div>
+                        <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+                        <div id="blueimp-gallery" class="blueimp-gallery">
+                                <div class="slides"></div>
+                                <h3 class="title"></h3>
+                                <a class="prev">‹</a>
+                                <a class="next">›</a>
+                                <a class="close">×</a>
+                                <a class="play-pause"></a>
+                                <ol class="indicator"></ol>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        <footer>
+            <div class="footer_content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xs-3">
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="img/logo_footer.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col xs-4">
+                            <div class="adres">
+                                <h4 class="footer_adres">г.Тверь, Советская 20</h4>
+                            </div>
+                        </div>
+                        <div class="col xs-3">
+                            <div class="contakt">
+                                <a class="footer_number" href="tel:88000000000">8-800-000-00-00</a>
+                            </div>
+                        </div>
+                        <div class="col xs-2">
+                            <div class="footer_socsety">
+                                <a href="https://vk.com/oldschooltver"><img class="socsety" src="img/vk.png" alt=""></a>
+                                <a href="/"><img class="socsety" src="img/facebook.png" alt=""></a>
+                                <a href="/"><img class="socsety" src="img/insta.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+        </main>
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/blueimp-gallery.min.js"></script>
+        <script src="js/blueimp-gallery-fullscreen.js"></script>
+        <script src="js/blueimp-gallery-indicator.js"></script>
+        <script src="js/scripts2.min.js"></script>
+    </body>
+</html>
